@@ -1,0 +1,514 @@
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	src: url( "../font/FREE/TRIALDxSitrus-Regular.otf");
+}
+body{
+	background-color: black;
+/*	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";*/
+}
+h1,li,h2{
+	font-family: "TRIAL Dx Sitrus";
+	src: url( "../font/FREE/TRIALDxSitrus-Regular.otf");
+	letter-spacing: 2px;
+}
+nav{
+	padding:0 30px ;
+	background:transparent;
+	z-index: 99999;
+	position: fixed;
+	width: 100%;
+	height: 10%;
+}
+nav img{
+	height: 35px;
+	padding: 15px 0;
+}
+nav ul{
+	float: right;
+	width: 35%;
+	padding: 25px 0;
+}
+nav ul li{
+	display: inline;
+	padding: 0 15px;
+	color: #AFFF14;
+}
+nav ul a{
+	text-decoration: none;
+	color: #AFFF14;
+}
+#banner{
+	background-image: url( "../img/BANNER 3.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.noidungbanner{
+	text-align: center;
+	padding-top: 17%;
+}
+.noidungbanner h1{
+	font-size:120px;
+	color: #AFFF14;
+	padding: 5px 28px;
+	line-height: 150px;
+}
+#information{
+	height: 800px;
+	padding-right: 50px;
+}
+/*
+.secinfor{
+	width: 90%;
+	margin: 60px 50px 200px 50px;
+	text-align: center;
+	height: 100px;
+}
+*/
+.inforimg{
+	background-image: url( "../img/SEC1.2.png");
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+	background-position: center;
+	margin-top: 50px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+.infortext{
+	margin: 30px 100px;
+}
+.infortext h4{
+	color: #AFFF14;
+	line-height: 60px;
+	font-size: 58px;
+	text-align: center;
+	font-family: "TRIAL Dx Sitrus";
+	padding-top: 190px;
+}
+
+button1 {
+	color: white;
+	border: 2px solid #afff14;
+	border-radius: 30px;
+	padding: 6px 0;
+	background: black;
+/*	margin-top: 3%;*/
+	margin-bottom: 15%;
+	margin-left: 48%;
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	
+}
+.but a{
+	text-decoration: none;
+	color: white;
+	border: 0px solid #afff14;
+	border-radius: 30px;
+	padding: 8px 20px;
+	
+}
+.but a:hover{
+	background-color: #afff14;
+	color: black;
+	text-decoration: none;
+	padding: 8px 20px;
+}
+.sec1about{
+	text-align: center;
+	margin-bottom: 50px;
+/*	padding-top: px;*/
+/*	color: #afff14;*/
+}
+.sec1about h2{
+	font-size: 90px;
+	padding: 0 50px;
+	
+	color: #afff14;
+}
+.aboutimg{
+	background-image: url("../img/sec3.png");
+	background-size: cover;
+	width: 62%;
+	float: left;
+	height: 500px;
+	margin-right: 130px;
+	margin-top: 50px;
+}
+.noidungabout{
+/*	padding-top: 8%;*/
+	margin: 10%;
+}
+.noidungabout p{
+	color: #AFFF14;
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	margin-left: 600px;
+	font-family: "Bookman Old Style";
+	
+}
+
+.spaceimg{
+	background-image: url( "../img/SEC3bg.png");
+	background-size: cover;
+	width: 95%;
+	height: 450px;
+	background-position: center;
+	margin-top: 50px;
+	background-repeat: no-repeat;
+	padding-left: 50px;
+/*	margin-right: -500px;*/
+}
+/*
+.sapcetitle{
+	padding-right: %;
+}
+*/
+.spacetitle h2{
+	font-size: 80px;
+	color: #afff14;
+	line-height: 100px;
+	padding-top: 90px;
+	text-align: center;
+	margin-left: -50px;
+}
+/*
+.but2{
+	position: relative;
+	display: inline;
+}
+*/
+/*
+  button2{
+	color: white;
+	border: 2px solid #afff14;
+	border-radius: 30px;
+	padding: 8px 30px;
+	background: black;
+	margin-top: 50px;
+	margin-bottom: -30%;
+	margin-left: 85%;
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 20px;
+
+	position: absolute;
+	
+}
+*/
+/*
+.but2 a{
+	color: #afff14;
+	text-decoration: none;
+}
+*/
+/*
+  .but2 a:hover{
+	color: black;
+	background-color: #AFFF14;
+	text-decoration: none;
+	border-radius: 30px;
+}
+*/
+#room{
+/*	background: #364e08;*/
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	padding: 8% 5%;
+	text-align: center;
+	float: left;
+}
+.img{
+	padding: 0 30px;
+	margin: 10px;
+	margin-top: -100px;
+/*	background: #364e08;*/
+}
+.img1 h3{
+	font-family: 'TRIAL Dx Sitrus';
+	color: #afff14;
+	font-size: 30px;
+}
+.img1 img{
+	width: 100%;
+	margin-right: 10px;
+}
+.img1 p{
+	font-family: "Bookman Old Style";
+	color: #afff14;
+	font-size: 22px;
+	margin: 10px 30px;
+}
+#library{
+	text-align: center;
+/*	margin: 80px 50px;*/
+	padding-top: 70px;
+}
+#library h3{
+/*	text-transform: uppercase;*/
+/*	padding: 30px 0;*/
+	color: #AFFF14;
+	font-size: 30px;
+	font-family: "Bookman Old Style";
+}
+#library h2{
+/*	text-transform: uppercase;*/
+/*	padding: 30px 0;*/
+	color: #AFFF14;
+	font-size: 80px;
+	font-family: "TRIAL Dx Sitrus";
+}
+.hover01 {
+	display:grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-template-rows:350px 350px;
+	margin-top:30px;
+	grid-gap:20px;
+}
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.imgcolumn{
+	display: grid;
+	grid-template-columns: auto auto auto;
+/*	margin-top:20px;*/
+	grid-gap:5px;
+	margin: 2% 20% 5%;
+}
+.imgbg{
+	background-image: url( "../img/SEC5bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90%;
+	height: 980px;
+	background-position: center;
+	margin: 0 80px;
+}
+.dicustext{
+	padding-left: 800px;
+}
+.dicustext h2{
+	color: #AFFF14;
+	font-size: 80px;
+	line-height: 75px;
+	text-align: center;
+	float: right;
+	margin-top: -700px;
+	padding-right: 90px;
+}
+.dicustext p{
+	color: #AFFF14;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	margin-top: -500px;
+	padding-right: 90px;
+}
+.ladytext{
+	padding-top: 150px;
+}
+.ladytext h2{
+	color: #AFFF14;
+	font-size: 80px;
+	padding-left: 70px;
+	margin-bottom: -30px;
+}
+.ladytext h3{
+	color: #AFFF14;
+	font-size: 60px;
+	font-family: "TRIAL Dx Sitrus";
+	padding-left: 70px;
+	margin-bottom: -30px;
+}
+.ladyimg{
+	background-image: url( "../img/SEC6bg.png");
+	widows: 50%;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ladyimg img{
+	padding-left: 280px;
+}
+/*
+.ladytext2{
+	padding-left: 750px;
+}
+*/
+.ladytext2 p{
+	color: #AFFF14;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	margin-top: -500px;
+	padding-right: 55px;
+	padding-left: 844px;
+}
+#survey{
+	text-align: center;
+	padding-top: 70px ;
+}
+#survey h2{
+	color: #AFFF14;
+	font-size: 80px;
+	
+	padding:50px;
+	margin-bottom: -70px;
+}
+#survey p{
+	color: #354d06;
+	font-size: 18px;
+	font-family: "Bookman Old Style";
+	padding-bottom: 90px;
+}
+#survey i{
+	color: #e9f620;
+	 
+}
+#survey form{
+	display: flex;
+	justify-content: center;
+}
+#survey table{
+	width: 60%;
+}
+#survey input{
+	width: 90%;
+	height: 25px;
+	border: none;
+	border-bottom: 1px solid #afff14;
+	background-color: black;
+	color: #AFFF14;
+	font-family: "Bookman Old Style";
+}
+#survey textarea{
+	width: 95%;
+	height: 60px;
+	overflow: hidden;
+	border: none;
+	border-bottom: 1px solid #afff14;
+	background-color: black;
+	color: #AFFF14;
+	font-family: "Bookman Old Style";
+	padding-bottom: 70px;
+}
+#survey form table button{
+	color: white;
+	border: 2px solid #afff14;
+	border-radius: 25px;
+	padding: 7px 15px;
+	background: black;
+	margin-top: 8%;
+	margin-bottom: 15%;
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+/*
+#survey form table td{
+	margin: 30px;
+}
+*/
+#survey form table button:hover{
+	background-color: #AFFF14;
+	color: black;
+}
+footer{
+	width: 100%;
+	height: 430px;
+	text-align: justify;
+/*	padding: 24px;*/
+	background-color: #AFFF14;
+}
+.focolumn{
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 300px;
+	display: grid;
+	padding: 45px 70px 0 70px;
+}
+.column1 h4{
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 30px;
+}
+.column1 p{
+	font-family: "Bookman Old Style";
+	font-size: 16px;
+	line-height: 25px;
+}
+.icon h4{
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 30px;
+}
+.icon i {
+	padding-top: 10px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 30px;
+	color: black;
+}
+.fotext{
+	color: black;
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 35px;
+	text-align: center;
+	margin-top: -100px;
+	padding: 0 180px;
+}
+.fotext p1{
+	color: black;
+	font-family: "Bookman Old Style";
+	text-align: center;
+	font-size: 13px;
+}
+#mybutto i{
+	border: none;
+	color: black;
+	
+}
+#mybutto{
+	background-color: #AFFF14;
+	border: none;
+	padding: 5px;
+	border-radius: 15px;
+	position: fixed;
+	right: 100px;
+	bottom: 100px;
+/*	z-index: 999;*/
+	display: none;
+}
+ This only changes this particular animation duration 
+.animate__animated .animate__bounceIn {
+  --animate-duration: 2s;
+}
+ This only changes this particular animation duration 
+.animate__animated .animate__fadeIn {
+  --animate-duration: 2s;
+}
+/*
+This only changes this particular animation duration 
+.animate__animated.animate__fadeInRightBig {
+  --animate-duration: 2s;
+}
+*/
+
+
+html{
+	scroll-behavior: smooth;
+}
+

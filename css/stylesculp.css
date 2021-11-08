@@ -1,0 +1,203 @@
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	src: url( "../font/FREE/TRIALDxSitrus-Regular.otf");
+}
+body{
+	background-color: black;
+/*	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";*/
+}
+h1,li,h2{
+	font-family: "TRIAL Dx Sitrus";
+	src: url( "../font/FREE/TRIALDxSitrus-Regular.otf");
+	letter-spacing: 2px;
+}
+nav{
+	padding:0 30px ;
+	background: black;
+	z-index: 99999;
+	position: fixed;
+	width: 100%;
+	height: 10%;
+}
+nav img{
+	height: 35px;
+	padding: 15px 0;
+}
+nav ul{
+	float: right;
+	width: 35%;
+	padding: 25px 0;
+}
+nav ul li{
+	display: inline;
+	padding: 0 15px;
+	color: #AFFF14;
+}
+nav ul a{
+	text-decoration: none;
+	color: #afff14;
+}
+#room1{
+	padding: 100px;
+}
+#room1 h2{
+	font-size: 80px;
+	font-family: "TRIAL Dx Sitrus";
+	color: #AFFF14;
+}
+.img1{
+	background-image: url( "../img/PAGE2 ROOM2.png");
+	width: 100%;
+	height: 850px;
+}
+.img1 h3{
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 65px;
+	color: #AFFF14;
+	text-align: center;
+	padding: 330px 250px;
+}
+#room1 p{
+	color: #AFFF14;
+	font-size: 25px;
+	font-family: "Bookman Old Style";
+	padding: 70px 80px 50px;
+	text-align: center;
+	
+}
+#room2{
+	padding: 100px;
+}
+#room2 h2{
+	font-size: 80px;
+	font-family: "TRIAL Dx Sitrus";
+	color: #AFFF14;
+}
+.img2{
+	background-image: url( "../img/PAGE2 ROOM1.png");
+	width: 100%;
+	height: 850px;
+}
+.img2 h3{
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 65px;
+	color: #AFFF14;
+	text-align: center;
+	padding: 330px 250px;
+}
+#room2 p{
+	color: #AFFF14;
+	font-size: 25px;
+	font-family: "Bookman Old Style";
+	padding: 70px 80px 50px;
+	text-align: center;
+	
+}
+#room3{
+	padding: 100px;
+}
+#room3 h2{
+	font-size: 80px;
+	font-family: "TRIAL Dx Sitrus";
+	color: #AFFF14;
+}
+.img3{
+	background-image: url( "../img/PAGE2 ROOM3.png");
+	width: 100%;
+	height: 850px;
+}
+.img3 h3{
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 65px;
+	color: #AFFF14;
+	text-align: center;
+	padding: 330px 250px;
+}
+#room3 p{
+	color: #AFFF14;
+	font-size: 25px;
+	font-family: "Bookman Old Style";
+	padding: 70px 80px 50px;
+	text-align: center;
+	
+}
+footer{
+	width: 100%;
+	height: 430px;
+	text-align: justify;
+/*	padding: 24px;*/
+	background-color: #AFFF14;
+}
+.focolumn{
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 300px;
+	display: grid;
+	padding: 45px 70px 0 70px;
+}
+.column1 h4{
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 30px;
+}
+.column1 p{
+	font-family: "Bookman Old Style";
+	font-size: 16px;
+	line-height: 25px;
+}
+.icon h4{
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 30px;
+}
+.icon i {
+	padding-top: 10px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 30px;
+	color: black;
+}
+.fotext{
+	color: black;
+	font-family: "TRIAL Dx Sitrus";
+	font-size: 35px;
+	text-align: center;
+	margin-top: -100px;
+	padding: 0 180px;
+}
+.fotext p1{
+	color: black;
+	font-family: "Bookman Old Style";
+	text-align: center;
+	font-size: 13px;
+}
+.imgcolumn{
+	display: grid;
+	grid-template-columns: auto auto auto;
+/*	margin-top:20px;*/
+	grid-gap:5px;
+	margin-top: 20px;
+	padding-left: 300px;
+}
+#mybutto i{
+	border: none;
+	color: black;
+	
+}
+#mybutto{
+	background-color: #AFFF14;
+	border: none;
+	padding: 5px;
+	border-radius: 15px;
+	position: fixed;
+	right: 100px;
+	bottom: 100px;
+/*	z-index: 999;*/
+	display: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+
